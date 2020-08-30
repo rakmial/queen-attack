@@ -1,0 +1,10 @@
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/obj/Debug/netcoreapp2.2/QueenAttack.csprojAssemblyReference.cache
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/obj/Debug/netcoreapp2.2/QueenAttack.AssemblyInfoInputs.cache
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/obj/Debug/netcoreapp2.2/QueenAttack.AssemblyInfo.cs
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/bin/Debug/netcoreapp2.2/QueenAttack.deps.json
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/bin/Debug/netcoreapp2.2/QueenAttack.runtimeconfig.json
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/bin/Debug/netcoreapp2.2/QueenAttack.runtimeconfig.dev.json
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/bin/Debug/netcoreapp2.2/QueenAttack.dll
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/bin/Debug/netcoreapp2.2/QueenAttack.pdb
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/obj/Debug/netcoreapp2.2/QueenAttack.dll
+/home/select/Desktop/Projects/Epicodus/C#/queen-attack/obj/Debug/netcoreapp2.2/QueenAttack.pdb
