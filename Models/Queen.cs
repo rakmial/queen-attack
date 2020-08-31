@@ -13,17 +13,25 @@ namespace QueenAttack.Models
       { return _xPosition; }
       set
       {
-        if (Board.ValidateX(value))
-        {
-          _xPosition = value;
-        }
-        else
+        while (!(Board.ValidateX(value)))
         {
           Console.WriteLine("Please enter a letter from the following: a, b, c, d, e, f, g, h");
-          SetError = true;
         }
+        _xPosition = value;
       }
     }
-    public int YPosition { get; set; }
+    public int YPosition 
+    { 
+      get
+      { return _yPosition; }
+      set
+      {
+        while (!(Board.ValidateY(value)))
+        {
+          Console.WriteLine("Please enter a number from the following: 1, 2, 3, 4, 5, 6, 7, 8");
+        }
+        _yPosition = value;
+      }
+    }
   }
 }

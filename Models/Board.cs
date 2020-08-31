@@ -16,5 +16,16 @@ namespace QueenAttack.Models
       }
       return false;
     }
+    public static bool ValidateY(int newY)
+    {
+      foreach(int num in _validInt)
+      {
+        if (num == newY)
+        {
+          return true;
+        }
+      }
+      return false;
+    }
   }
 }
