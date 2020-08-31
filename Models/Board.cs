@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace QueenAttack.Models
 {
   public class Board
@@ -16,6 +18,7 @@ namespace QueenAttack.Models
       }
       return false;
     }
+
     public static bool ValidateY(int newY)
     {
       foreach(int num in _validInt)
@@ -26,6 +29,12 @@ namespace QueenAttack.Models
         }
       }
       return false;
+    }
+
+    public static int XConvert(string xStr)
+    {
+      Dictionary<string, int> complements = new Dictionary<string, int>() {{"a", 1}, {"b", 2}, {"c", 3}, {"d", 4}, {"e", 5}, {"f", 6}, {"g", 7}, {"h", 8}};
+      return complements[xStr];
     }
   }
 }
